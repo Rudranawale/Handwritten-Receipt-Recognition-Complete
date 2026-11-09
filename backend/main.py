@@ -11,13 +11,13 @@ from threading import Lock
 from pathlib import Path
 from datetime import datetime
 
-import easyocr
+# import easyocr
 import cv2
 import os
 import uuid
 import traceback
 
-from ultralytics import YOLO
+# from ultralytics import YOLO
 
 
 # --------------------------------------------------
@@ -52,12 +52,22 @@ reader = None
 reader_lock = Lock()
 
 
+# def get_reader():
+#     global reader
+
+#     with reader_lock:
+#         if reader is None:
+#             print("Loading EasyOCR model...")
+#             reader = easyocr.Reader(["en"], gpu=False)
+
+#     return reader
 def get_reader():
     global reader
 
     with reader_lock:
         if reader is None:
             print("Loading EasyOCR model...")
+            import easyocr
             reader = easyocr.Reader(["en"], gpu=False)
 
     return reader
@@ -75,12 +85,22 @@ yolo_model = None
 yolo_lock = Lock()
 
 
+# def get_yolo():
+#     global yolo_model
+
+#     with yolo_lock:
+#         if yolo_model is None and YOLO_MODEL_PATH.exists():
+#             print("Loading YOLO model...")
+#             yolo_model = YOLO(str(YOLO_MODEL_PATH))
+
+#     return yolo_model
 def get_yolo():
     global yolo_model
 
     with yolo_lock:
         if yolo_model is None and YOLO_MODEL_PATH.exists():
             print("Loading YOLO model...")
+            from ultralytics import YOLO
             yolo_model = YOLO(str(YOLO_MODEL_PATH))
 
     return yolo_model
