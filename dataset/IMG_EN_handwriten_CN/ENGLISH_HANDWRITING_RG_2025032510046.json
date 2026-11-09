@@ -1,0 +1,490 @@
+{
+    "version": "4.5.6",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "Section as: Lease how Made + Termination + Dispute",
+            "points": [
+                [
+                    215.227027,
+                    358.157154
+                ],
+                [
+                    1141.513181,
+                    408.632971
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "95(1) if within one year ### it can be owe lease",
+            "points": [
+                [
+                    79.211946,
+                    462.253806
+                ],
+                [
+                    926.295287,
+                    459.371882
+                ],
+                [
+                    913.726306,
+                    501.342924
+                ],
+                [
+                    78.523296,
+                    516.380302
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "if more than one year ### registration + ###",
+            "points": [
+                [
+                    203.911942,
+                    516.818503
+                ],
+                [
+                    1184.314331,
+                    505.911518
+                ],
+                [
+                    1178.630399,
+                    565.078813
+                ],
+                [
+                    201.050084,
+                    568.082856
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "95(4) after expiration, the internet will revert to user",
+            "points": [
+                [
+                    99.128376,
+                    728.973763
+                ],
+                [
+                    1112.107462,
+                    778.951789
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "end. only there sight of lisbilition laid is acts/count .",
+            "points": [
+                [
+                    222.129337,
+                    652.042219
+                ],
+                [
+                    1179.364014,
+                    635.680128
+                ],
+                [
+                    1179.630517,
+                    672.496347
+                ],
+                [
+                    231.406526,
+                    704.651676
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "95(3) lease cannot create a premarital sight over leases",
+            "points": [
+                [
+                    78.145533,
+                    601.10581
+                ],
+                [
+                    1123.823345,
+                    586.40452
+                ],
+                [
+                    1119.018528,
+                    632.903148
+                ],
+                [
+                    85.7638,
+                    643.212343
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "(resumption)",
+            "points": [
+                [
+                    260.986373,
+                    788.900048
+                ],
+                [
+                    470.807609,
+                    824.282598
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "95(5)",
+            "points": [
+                [
+                    93.135814,
+                    868.517929
+                ],
+                [
+                    184.555893,
+                    915.753874
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "95(6)",
+            "points": [
+                [
+                    96.697671,
+                    965.960679
+                ],
+                [
+                    180.10361699999999,
+                    1001.907517
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "+",
+            "points": [
+                [
+                    127.566767,
+                    1009.928709
+                ],
+                [
+                    151.905867,
+                    1036.071892
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "S•94 (2)",
+            "points": [
+                [
+                    91.948558,
+                    1049.143507
+                ],
+                [
+                    196.428629,
+                    1089.546567
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Before 2019 amendment, the lease by bhumidhas was",
+            "points": [
+                [
+                    205.926809,
+                    1176.394726
+                ],
+                [
+                    1098.577552,
+                    1222.044946
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "restricted by the provision of S•94 - S•97. There was",
+            "points": [
+                [
+                    197.578381,
+                    1224.419196
+                ],
+                [
+                    1118.2084439999999,
+                    1266.552345
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "restriction on law f only on exceptional circumstances",
+            "points": [
+                [
+                    192.627118,
+                    1269.927365
+                ],
+                [
+                    1184.019365,
+                    1310.138011
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "the lease was permitted, that is (i - e•) leave by dricbles",
+            "points": [
+                [
+                    191.200108,
+                    1313.64708
+                ],
+                [
+                    1185.803086,
+                    1357.308557
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "person or Lease to an registered educational institution.",
+            "points": [
+                [
+                    210.269975,
+                    1360.299044
+                ],
+                [
+                    1161.519472,
+                    1400.0015210000001
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "impacting instruction in agriculture. The effect of",
+            "points": [
+                [
+                    202.448564,
+                    1404.377716
+                ],
+                [
+                    1067.036202,
+                    1449.166325
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "contravention of these provision was that as per S•103",
+            "points": [
+                [
+                    203.984599,
+                    1452.025922
+                ],
+                [
+                    1122.0036169999998,
+                    1492.947597
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": " the lessee became an BNTR and when willing",
+            "points": [
+                [
+                    264.060218,
+                    1496.214771
+                ],
+                [
+                    1071.868229,
+                    1540.6942649999999
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "limit was proceed, S•81 was applicable.",
+            "points": [
+                [
+                    225.495999,
+                    1543.847134
+                ],
+                [
+                    987.546833,
+                    1588.3593500000002
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Conditions of private Lease (S•94(4)",
+            "points": [
+                [
+                    215.962307,
+                    190.564503
+                ],
+                [
+                    842.651023,
+                    232.246217
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "_/_/_",
+            "points": [
+                [
+                    972.830157,
+                    72.504178
+                ],
+                [
+                    1136.420725,
+                    118.666016
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Downloaded by wasdas acaa (wyattw6wood@outlook.com)",
+            "points": [
+                [
+                    382.337654,
+                    1650.454581
+                ],
+                [
+                    808.306888,
+                    1671.687169
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "The terms of conditions shall be mutually agreed",
+            "points": [
+                [
+                    215.207018,
+                    237.839062
+                ],
+                [
+                    1050.308829,
+                    232.757969
+                ],
+                [
+                    1048.427886,
+                    287.750217
+                ],
+                [
+                    216.516891,
+                    274.792589
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "b/w user of lessee.",
+            "points": [
+                [
+                    220.328853,
+                    274.851963
+                ],
+                [
+                    566.227456,
+                    287.831259
+                ],
+                [
+                    561.91044,
+                    318.52336
+                ],
+                [
+                    218.911597,
+                    330.411557
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "###",
+            "points": [
+                [
+                    126.107175,
+                    198.025877
+                ],
+                [
+                    164.39144199999998,
+                    219.887385
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "###",
+            "points": [
+                [
+                    130.156035,
+                    380.916629
+                ],
+                [
+                    168.642752,
+                    403.699326
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "ENGLISH_HANDWRITING_RG_2025032510046.jpg",
+    "imageData": null,
+    "imageHeight": 1684,
+    "imageWidth": 1190
+}

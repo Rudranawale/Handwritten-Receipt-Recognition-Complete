@@ -1,0 +1,578 @@
+{
+    "version": "4.5.6",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "###",
+            "points": [
+                [
+                    853.752333,
+                    54.278858
+                ],
+                [
+                    895.89338,
+                    58.409152
+                ],
+                [
+                    895.067085,
+                    74.104272
+                ],
+                [
+                    855.404923,
+                    73.278213
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "###",
+            "points": [
+                [
+                    855.404923,
+                    73.278213
+                ],
+                [
+                    897.54597,
+                    82.364861
+                ],
+                [
+                    895.89338,
+                    102.190275
+                ],
+                [
+                    854.578628,
+                    96.407863
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Q",
+            "points": [
+                [
+                    83.763979,
+                    129.124579
+                ],
+                [
+                    138.299451,
+                    124.168226
+                ],
+                [
+                    142.430926,
+                    167.949348
+                ],
+                [
+                    87.895454,
+                    173.731761
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Common problem Problem associated with ###",
+            "points": [
+                [
+                    191.888393,
+                    131.499959
+                ],
+                [
+                    1072.727167,
+                    155.48871
+                ],
+                [
+                    1073.726984,
+                    189.472774
+                ],
+                [
+                    181.277949,
+                    174.305004
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "cavity 08 Tooth & Jums.",
+            "points": [
+                [
+                    178.690034,
+                    185.519283
+                ],
+                [
+                    817.773833,
+                    200.467618
+                ],
+                [
+                    813.774565,
+                    249.444652
+                ],
+                [
+                    180.654718,
+                    247.154678
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "periodentell disease.",
+            "points": [
+                [
+                    218.994577,
+                    414.367285
+                ],
+                [
+                    609.923022,
+                    419.364942
+                ],
+                [
+                    610.922839,
+                    455.348069
+                ],
+                [
+                    221.216399,
+                    451.683131
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Tooth decery CILSO known as Dentell caries",
+            "points": [
+                [
+                    190.670873,
+                    951.905086
+                ],
+                [
+                    1133.088375,
+                    962.789981
+                ],
+                [
+                    1131.878596,
+                    1003.910699
+                ],
+                [
+                    198.635832,
+                    996.996857
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "08 cavities, it is a breakdown of teeth,",
+            "points": [
+                [
+                    191.993522,
+                    1005.53696
+                ],
+                [
+                    1077.906679,
+                    1011.76361
+                ],
+                [
+                    1067.82849,
+                    1045.390786
+                ],
+                [
+                    192.82958,
+                    1046.240849
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "due to acids mude by bacteria.",
+            "points": [
+                [
+                    190.095729,
+                    1054.879753
+                ],
+                [
+                    923.595667,
+                    1056.77758
+                ],
+                [
+                    922.646803,
+                    1086.193476
+                ],
+                [
+                    187.249022,
+                    1086.193476
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "The cavities mely be 9 number of",
+            "points": [
+                [
+                    189.603479,
+                    1100.396594
+                ],
+                [
+                    1063.063604,
+                    1094.34943
+                ],
+                [
+                    1064.273382,
+                    1135.470148
+                ],
+                [
+                    190.548277,
+                    1136.362586
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "diff. colors from yellow to black. The",
+            "points": [
+                [
+                    190.548277,
+                    1136.362586
+                ],
+                [
+                    1089.844725,
+                    1139.098446
+                ],
+                [
+                    1087.164197,
+                    1169.763895
+                ],
+                [
+                    189.50449,
+                    1173.93904
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "onest Common bacteria associated with",
+            "points": [
+                [
+                    184.764365,
+                    1183.847462
+                ],
+                [
+                    1066.001237,
+                    1179.117341
+                ],
+                [
+                    1072.338523,
+                    1228.193359
+                ],
+                [
+                    194.039285,
+                    1222.146195
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "dentell Cavities are the mutems streptococci",
+            "points": [
+                [
+                    186.780614,
+                    1235.449956
+                ],
+                [
+                    1134.03723,
+                    1231.821658
+                ],
+                [
+                    1141.295901,
+                    1268.104644
+                ],
+                [
+                    192.829506,
+                    1274.151808
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "lactobacilli",
+            "points": [
+                [
+                    203.419534,
+                    1331.935852
+                ],
+                [
+                    411.245271,
+                    1331.935852
+                ],
+                [
+                    413.999557,
+                    1356.108876
+                ],
+                [
+                    200.665202,
+                    1362.116577
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Etiology",
+            "points": [
+                [
+                    257.170388,
+                    1404.5877
+                ],
+                [
+                    444.213537,
+                    1409.093476
+                ],
+                [
+                    438.955296,
+                    1461.660862
+                ],
+                [
+                    258.672742,
+                    1454.902198
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Accumulat of food particles",
+            "points": [
+                [
+                    201.143494,
+                    1497.501103
+                ],
+                [
+                    853.214141,
+                    1497.501103
+                ],
+                [
+                    861.682591,
+                    1545.878418
+                ],
+                [
+                    201.143494,
+                    1545.878418
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "bacteria in gelatinous mes",
+            "points": [
+                [
+                    547.677933,
+                    1545.878418
+                ],
+                [
+                    1138.049799,
+                    1547.491007
+                ],
+                [
+                    1141.679135,
+                    1598.287188
+                ],
+                [
+                    553.726752,
+                    1587.402292
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "This document is available on",
+            "points": [
+                [
+                    389.508039,
+                    1615.57008
+                ],
+                [
+                    587.818849,
+                    1619.700375
+                ],
+                [
+                    586.992554,
+                    1637.047612
+                ],
+                [
+                    389.508039,
+                    1637.047612
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "studocu",
+            "points": [
+                [
+                    660.638671,
+                    1609.998143
+                ],
+                [
+                    803.587713,
+                    1609.172084
+                ],
+                [
+                    801.935122,
+                    1642.214441
+                ],
+                [
+                    661.464966,
+                    1641.388382
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Scanned with OKEN Scanner",
+            "points": [
+                [
+                    855.6443,
+                    1633.036005
+                ],
+                [
+                    1173.76789,
+                    1633.862064
+                ],
+                [
+                    1173.76789,
+                    1659.469891
+                ],
+                [
+                    849.03394,
+                    1661.948068
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "Downloaded by wasdas acaa (wyattw6wood@outlook.com)",
+            "points": [
+                [
+                    379.055639,
+                    1650.291456
+                ],
+                [
+                    807.076469,
+                    1651.117515
+                ],
+                [
+                    808.729059,
+                    1675.073223
+                ],
+                [
+                    379.055639,
+                    1673.421105
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": " ① Tooth Decary + (Dentell 0+ (Dentell carries):",
+            "points": [
+                [
+                    157.088305,
+                    842.280998
+                ],
+                [
+                    1012.925729,
+                    922.3143269999999
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "common diseases of 0841 cavity:",
+            "points": [
+                [
+                    152.669093,
+                    262.156363
+                ],
+                [
+                    982.07222,
+                    343.411025
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Tooth deay",
+            "points": [
+                [
+                    233.756192,
+                    361.887209
+                ],
+                [
+                    472.42073400000004,
+                    409.083787
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "most prominently streptococcus multens &",
+            "points": [
+                [
+                    196.544866,
+                    1280.664816
+                ],
+                [
+                    1095.721105,
+                    1329.332648
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "ENGLISH_HANDWRITING_RG_2025032510485.jpg",
+    "imageData": null,
+    "imageHeight": 1684,
+    "imageWidth": 1190
+}

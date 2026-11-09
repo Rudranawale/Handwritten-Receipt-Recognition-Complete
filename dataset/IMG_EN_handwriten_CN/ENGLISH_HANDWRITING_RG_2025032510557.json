@@ -1,0 +1,658 @@
+{
+    "version": "4.5.6",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "###",
+            "points": [
+                [
+                    883.794157,
+                    49.969606
+                ],
+                [
+                    941.6009750000001,
+                    60.124862
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Victory",
+            "points": [
+                [
+                    884.458603,
+                    62.996514
+                ],
+                [
+                    952.413642,
+                    80.193831
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Student Name",
+            "points": [
+                [
+                    532.220983,
+                    86.358925
+                ],
+                [
+                    613.241936,
+                    102.928855
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Class",
+            "points": [
+                [
+                    532.806296,
+                    115.911278
+                ],
+                [
+                    564.980552,
+                    128.73477499999998
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Sec",
+            "points": [
+                [
+                    626.788756,
+                    113.824753
+                ],
+                [
+                    651.6940960000001,
+                    128.734775
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Sub",
+            "points": [
+                [
+                    706.625753,
+                    112.255278
+                ],
+                [
+                    729.775523,
+                    125.59582300000001
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Roll No.",
+            "points": [
+                [
+                    531.23682,
+                    140.505844
+                ],
+                [
+                    575.182146,
+                    154.631127
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Date",
+            "points": [
+                [
+                    691.644214,
+                    140.505844
+                ],
+                [
+                    718.7891910000001,
+                    155.023496
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "remedy",
+            "points": [
+                [
+                    269.57117,
+                    339.584979
+                ],
+                [
+                    380.790176,
+                    370.87735499999997
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "wigent solution to meet in the situation.",
+            "points": [
+                [
+                    263.197263,
+                    252.455479
+                ],
+                [
+                    898.823942,
+                    286.432979
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "mation requires immediate steps to prevent the",
+            "points": [
+                [
+                    256.140442,
+                    412.29132
+                ],
+                [
+                    1022.910962,
+                    442.330288
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "disturbance. Therefore under such circumstances the",
+            "points": [
+                [
+                    260.475713,
+                    450.353453
+                ],
+                [
+                    1030.362297,
+                    480.579264
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "executive are empowered to need them",
+            "points": [
+                [
+                    266.095539,
+                    490.654534
+                ],
+                [
+                    889.080361,
+                    530.022524
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "In this case a regulation framed by Air India",
+            "points": [
+                [
+                    270.676227,
+                    652.506955
+                ],
+                [
+                    990.6386110000001,
+                    684.70625
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "stating that service of air hostesses could be",
+            "points": [
+                [
+                    271.436858,
+                    690.769752
+                ],
+                [
+                    971.302234,
+                    720.3258930000001
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "terminated, is she gets peregrant.",
+            "points": [
+                [
+                    270.141041,
+                    731.161213
+                ],
+                [
+                    801.345653,
+                    766.122576
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "The court held that this arbitrary unreasonable",
+            "points": [
+                [
+                    276.19298,
+                    771.211097
+                ],
+                [
+                    1040.506111,
+                    800.724515
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "In this case the rule was made which makes it",
+            "points": [
+                [
+                    275.22368,
+                    968.319818
+                ],
+                [
+                    1034.590299,
+                    1004.986749
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Compulsory to wear a helmet by person driving 2",
+            "points": [
+                [
+                    274.671232,
+                    1011.979323
+                ],
+                [
+                    1043.546095,
+                    1041.08566
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Wheelers",
+            "points": [
+                [
+                    275.01162,
+                    1054.918106
+                ],
+                [
+                    394.250894,
+                    1089.2230630000001
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "The court held that such rule can't be arbitrary,",
+            "points": [
+                [
+                    276.89258,
+                    1092.581486
+                ],
+                [
+                    1028.992926,
+                    1137.174676
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "discriminatory or impose unreasonable restriction",
+            "points": [
+                [
+                    272.218745,
+                    1132.346457
+                ],
+                [
+                    1032.35135,
+                    1172.901143
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "or the fundamental rights garanteed under Artide",
+            "points": [
+                [
+                    272.017587,
+                    1174.981298
+                ],
+                [
+                    1074.81674,
+                    1212.2002559999999
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "19 of the Constitution.",
+            "points": [
+                [
+                    277.207345,
+                    1218.774894
+                ],
+                [
+                    613.94532,
+                    1249.307914
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Advantages of Delegated Legislation",
+            "points": [
+                [
+                    239.42976,
+                    1294.173175
+                ],
+                [
+                    779.2008549999999,
+                    1342.6156839999999
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "therefore delegated legislation fries the legislature from",
+            "points": [
+                [
+                    240.047101,
+                    1457.911953
+                ],
+                [
+                    1065.137028,
+                    1492.84916
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Concern with details & thus enables it to concentrate its",
+            "points": [
+                [
+                    229.577264,
+                    1498.980469
+                ],
+                [
+                    1042.9714330000002,
+                    1535.977169
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "attention upon the exartment of the fundamentals of a policy.",
+            "points": [
+                [
+                    224.397894,
+                    1541.957003
+                ],
+                [
+                    1063.691149,
+                    1581.151499
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Gold",
+            "points": [
+                [
+                    247.142668,
+                    1586.425925
+                ],
+                [
+                    296.960722,
+                    1607.711466
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Scanned with OKEN Scanner",
+            "points": [
+                [
+                    852.065998,
+                    1637.697665
+                ],
+                [
+                    1171.7431310000002,
+                    1658.0161269999999
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Downloaded by wasdas acaa (wyattw6wood@outlook.com)",
+            "points": [
+                [
+                    379.34333,
+                    1647.302935
+                ],
+                [
+                    807.365382,
+                    1674.270896
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "###",
+            "points": [
+                [
+                    237.600731,
+                    565.610068
+                ],
+                [
+                    899.210151,
+                    568.968491
+                ],
+                [
+                    891.373829,
+                    612.627996
+                ],
+                [
+                    237.600731,
+                    612.627996
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        {
+            "label": "and piolative.",
+            "points": [
+                [
+                    279.263462,
+                    810.901555
+                ],
+                [
+                    498.069838,
+                    840.414973
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "Case law: Ajay (an (rs) Union of Prodia.",
+            "points": [
+                [
+                    245.360788,
+                    888.83713
+                ],
+                [
+                    920.403902,
+                    923.540839
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "activities do not have time to provide for details,",
+            "points": [
+                [
+                    235.158646,
+                    1425.120954
+                ],
+                [
+                    990.0202899999999,
+                    1452.212237
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "* Modern Legislators are crowded legislative and other",
+            "points": [
+                [
+                    190.235672,
+                    1368.217088
+                ],
+                [
+                    980.195209,
+                    1410.32454
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "* Thus, during the period of ememergency or war the",
+            "points": [
+                [
+                    224.307013,
+                    369.775911
+                ],
+                [
+                    1062.470645,
+                    403.177255
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "* Delegated legislation is the only convenient",
+            "points": [
+                [
+                    225.3508,
+                    293.579251
+                ],
+                [
+                    985.360678,
+                    325.414826
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "* The legislative process is not equipped to provide form",
+            "points": [
+                [
+                    228.339284,
+                    199.806205
+                ],
+                [
+                    1073.928075,
+                    243.930066
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "19",
+            "points": [
+                [
+                    1029.875329,
+                    1580.764733
+                ],
+                [
+                    1060.928109,
+                    1617.819205
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "ENGLISH_HANDWRITING_RG_2025032510557.jpg",
+    "imageData": null,
+    "imageHeight": 1684,
+    "imageWidth": 1190
+}

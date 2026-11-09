@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+.cache/
+.vscode/
+.history/
+.wrangler/
+.dev.vars
+
+# Runtime uploads and generated cache
+backend/uploads/
+**/labels.cache

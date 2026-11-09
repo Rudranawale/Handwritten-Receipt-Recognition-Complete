@@ -1,0 +1,11 @@
+path: C:/Users/Rudra Nawale/OneDrive/Projects/Handwritten-Receipt-Recognition/backend/yolo
+train: synthetic_dataset/train/images
+val: synthetic_dataset/valid/images
+names:
+  0: address
+  1: date
+  2: deals in babu sales and services
+  3: items
+  4: shop
+  5: tax
+  6: tot
