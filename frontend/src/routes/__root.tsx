@@ -80,7 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SpendIQ — AI Receipt Scanner & Expense Tracker" },
+      { title: "ReceiptIQ — AI Receipt Scanner & Expense Tracker" },
       { name: "description", content: "Scan handwritten receipts with AI and track your spending." },
     ],
     links: [

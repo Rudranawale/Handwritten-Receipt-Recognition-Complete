@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/assistant")({
   head: () => ({
     meta: [
-      { title: "AI Spending Assistant — SpendIQ" },
+      { title: "AI Spending Assistant — ReceiptIQ" },
       { name: "description", content: "Ask questions about your receipts in plain English or Hindi." },
-      { property: "og:title", content: "AI Spending Assistant — SpendIQ" },
+      { property: "og:title", content: "AI Spending Assistant — ReceiptIQ" },
       { property: "og:description", content: "Ask questions about your receipts in plain English or Hindi." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -37,7 +37,10 @@ function Assistant() {
   const [thinking, setThinking] = useState(false);
   const end = useRef<HTMLDivElement>(null);
 
-  useEffect(() => end.current?.scrollIntoView({ behavior: "smooth" }), [msgs, thinking]);
+  // useEffect(() => end.current?.scrollIntoView({ behavior: "smooth" }), [msgs, thinking]);
+  useEffect(() => {
+  end.current?.scrollIntoView({ behavior: "smooth" });
+}, [msgs, thinking]);
 
   const ask = async (q: string) => {
     if (!q.trim() || thinking) return;

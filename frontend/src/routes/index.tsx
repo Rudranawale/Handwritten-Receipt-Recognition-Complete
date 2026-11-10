@@ -12,9 +12,9 @@ import { setPendingFile } from "@/lib/pending";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SpendIQ — Smart Receipt & Expense Dashboard" },
+      { title: "ReceiptIQ — Smart Receipt & Expense Dashboard" },
       { name: "description", content: "Scan handwritten receipts with AI and track your grocery spending in one dashboard." },
-      { property: "og:title", content: "SpendIQ — Smart Receipt & Expense Dashboard" },
+      { property: "og:title", content: "ReceiptIQ — Smart Receipt & Expense Dashboard" },
       { property: "og:description", content: "Scan handwritten receipts with AI and track your grocery spending." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

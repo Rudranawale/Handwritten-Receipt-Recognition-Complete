@@ -29,7 +29,6 @@
 
 
 
-
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
@@ -37,10 +36,29 @@ export default defineConfig({
     server: { entry: "server" },
   },
 
+  nitro: {
+    preset: "render-com",
+  },
+
   vite: {
     server: {
-      // allowedHosts: ["tapes-lived-straight-configuring.trycloudflare.com"],
-      allowedHosts: [ "prostores-cool-angela-crafts.trycloudflare.com"],
+      allowedHosts: ["prostores-cool-angela-crafts.trycloudflare.com"],
     },
   },
 });
+
+
+// import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+// export default defineConfig({
+//   tanstackStart: {
+//     server: { entry: "server" },
+//   },
+
+//   vite: {
+//     server: {
+//       // allowedHosts: ["tapes-lived-straight-configuring.trycloudflare.com"],
+//       allowedHosts: [ "prostores-cool-angela-crafts.trycloudflare.com"],
+//     },
+//   },
+// });

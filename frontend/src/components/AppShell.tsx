@@ -33,7 +33,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="brand-gradient glow grid size-9 shrink-0 place-items-center rounded-xl">
             <ScanLine className="size-5 text-primary-foreground" />
           </div>
-          {!collapsed && <span className="text-lg font-bold tracking-tight">SpendIQ</span>}
+          {!collapsed && <span className="text-lg font-bold tracking-tight">ReceiptIQ</span>}
         </div>
 
         <nav className="mt-4 flex-1 space-y-1 px-3">

@@ -12,9 +12,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/upload")({
   head: () => ({
     meta: [
-      { title: "Upload & Scan Receipts — SpendIQ" },
+      { title: "Upload & Scan Receipts — ReceiptIQ" },
       { name: "description", content: "Upload handwritten receipts and review AI-extracted items, GST and totals." },
-      { property: "og:title", content: "Upload & Scan Receipts — SpendIQ" },
+      { property: "og:title", content: "Upload & Scan Receipts — ReceiptIQ" },
       { property: "og:description", content: "Upload handwritten receipts and review AI-extracted data." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -295,9 +295,9 @@ function UploadPage() {
 // export const Route = createFileRoute("/upload")({
 //   head: () => ({
 //     meta: [
-//       { title: "Upload & Scan Receipts — SpendIQ" },
+//       { title: "Upload & Scan Receipts — ReceiptIQ" },
 //       { name: "description", content: "Upload handwritten receipts and review AI-extracted items, GST and totals." },
-//       { property: "og:title", content: "Upload & Scan Receipts — SpendIQ" },
+//       { property: "og:title", content: "Upload & Scan Receipts — ReceiptIQ" },
 //       { property: "og:description", content: "Upload handwritten receipts and review AI-extracted data." },
 //       { property: "og:type", content: "website" },
 //       { name: "twitter:card", content: "summary" },

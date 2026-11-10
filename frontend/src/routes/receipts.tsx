@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/receipts")({
   head: () => ({
     meta: [
-      { title: "Receipts Dataset — SpendIQ" },
+      { title: "Receipts Dataset — ReceiptIQ" },
       { name: "description", content: "Search, sort, filter and export every scanned receipt." },
-      { property: "og:title", content: "Receipts Dataset — SpendIQ" },
+      { property: "og:title", content: "Receipts Dataset — ReceiptIQ" },
       { property: "og:description", content: "Search, sort, filter and export every scanned receipt." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
