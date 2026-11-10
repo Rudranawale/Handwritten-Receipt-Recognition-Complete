@@ -1,19 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
-venv/
-.venv/
-__pycache__/
-*.py[cod]
-node_modules/
-dist/
-build/
-.cache/
-.vscode/
-.history/
-.wrangler/
-.dev.vars
 
-# Runtime uploads and generated cache
+# Uploaded receipts and private data
 backend/uploads/
-**/labels.cache
+uploads/
+
+# ML model weights
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and local history
+.history/
+.vscode/
+
+# ML cache files
+*.cache

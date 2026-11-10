@@ -1,4 +1,4 @@
-"""
+﻿"""
 Rule-based natural-language questions -> SQL (no LLM needed).
 Works with Hinglish + English keywords. Only SELECT queries are ever run.
 """
@@ -54,7 +54,7 @@ def detect_date_range(q):
 
 
 def money(x):
-    return f"₹{float(x or 0):,.2f}"
+    return f"â‚¹{float(x or 0):,.2f}"
 
 
 HELP = [
@@ -111,22 +111,59 @@ def ask(req: AskRequest):
         bill_date = "COALESCE(r.receipt_date, DATE(r.created_at))"
 
         # ---------- intent routing ----------
-        if has(q, "sabse mehng", "most expensive", "costliest", "highest price", "sabse costly", "sabse jyada rate"):
-            intent = "most_expensive_item"
-            w, p = where(["i.unit_price IS NOT NULL"])
-            sql = (f"SELECT i.item_name, i.unit_price, r.store_name, {bill_date} AS bill_date "
-                   f"FROM receipt_items i JOIN receipts r ON r.id = i.receipt_id {w} "
-                   f"ORDER BY i.unit_price DESC LIMIT 1")
+        # if has(q, "sabse mehng", "most expensive", "costliest", "highest price", "sabse costly", "sabse jyada rate"):
+        #     intent = "most_expensive_item"
+        #     w, p = where(["i.unit_price IS NOT NULL"])
+        #     sql = (f"SELECT i.item_name, i.unit_price, r.store_name, {bill_date} AS bill_date "
+        #            f"FROM receipt_items i JOIN receipts r ON r.id = i.receipt_id {w} "
+        #            f"ORDER BY i.unit_price DESC LIMIT 1")
+        #     cursor.execute(sql, p)
+        #     rows = cursor.fetchall()
+        #     answer = (f"Most expensive item{scope}: {rows[0]['item_name']} at {money(rows[0]['unit_price'])} "
+        #               f"({rows[0]['store_name'] or 'unknown shop'})") if rows else f"No items found{scope}."
+
+        # ---------- intent routing ----------
+
+        if has(q, "show all receipts", "all receipts", "show receipts",
+               "receipts from", "receipt from", "bills from",
+               "receipt history", "bill history"):
+
+            intent = "shop_receipts"
+
+            if not shop:
+                return {
+                    "question": req.question,
+                    "intent": "shop_receipts",
+                    "answer": "Please mention a shop name.",
+                    "examples": HELP,
+                    "sql": None,
+                    "rows": []
+                }
+
+            w, p = where()
+
+            sql = (
+                f"SELECT r.id, r.store_name, "
+                f"{bill_date} AS bill_date, "
+                f"r.total_amount, r.gst_amount, r.processing_status "
+                f"FROM receipts r {w} "
+                f"ORDER BY r.id DESC LIMIT 50"
+            )
+
             cursor.execute(sql, p)
             rows = cursor.fetchall()
-            answer = (f"Most expensive item{scope}: {rows[0]['item_name']} at {money(rows[0]['unit_price'])} "
-                      f"({rows[0]['store_name'] or 'unknown shop'})") if rows else f"No items found{scope}."
+
+            answer = (
+                f"Found {len(rows)} receipt(s) from {shop}."
+                if rows else f"No receipts found from {shop}."
+            )
 
         elif has(q, "which shop", "kis shop", "kaunsi shop", "kaunsi dukaan", "kis dukaan", "top shop"):
             intent = "top_shop"
             w, p = where(["r.store_name IS NOT NULL", "r.total_amount IS NOT NULL"])
             sql = (f"SELECT r.store_name, SUM(r.total_amount) AS total, COUNT(*) AS bills "
-                   f"FROM receipts r {w} GROUP BY r.store_name ORDER BY total DESC LIMIT 5")
+                #    f"FROM receipts r {w} GROUP BY r.store_name ORDER BY total DESC LIMIT 5")
+                    f"FROM receipts r {w} GROUP BY r.store_name ORDER BY total DESC LIMIT 5")
             cursor.execute(sql, p)
             rows = cursor.fetchall()
             answer = (f"Highest spend{' ' + rng[2] if rng else ''}: {rows[0]['store_name']} "
@@ -136,6 +173,9 @@ def ask(req: AskRequest):
             intent = "count_receipts"
             w, p = where()
             sql = f"SELECT COUNT(*) AS receipts FROM receipts r {w}"
+            # cursor.execute(sql, p)
+            print("DEBUG SQL:", sql)
+            print("DEBUG PARAMS:", p)
             cursor.execute(sql, p)
             rows = cursor.fetchall()
             answer = f"Receipts{scope}: {rows[0]['receipts']}"

@@ -1,5 +1,6 @@
 fastapi==0.162.0
 uvicorn[standard]
 python-multipart
-easyocr
 mysql-connector-python
+google-genai==3.0.0
+Pillow==13.0.0
